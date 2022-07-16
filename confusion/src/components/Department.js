@@ -15,10 +15,10 @@ class RenderDept extends Component {
         }}
       >
         <Link to={`/departments/${this.props.dept.id}`}>
-          <Card className='bg-info'>
-            <CardTitle className="m-2 text-dark">{this.props.dept.name}</CardTitle>
+          <Card>
+            <CardTitle className="m-2">{this.props.dept.name}</CardTitle>
             <CardBody>
-              <CardText className='text-dark'>
+              <CardText>
                 Số lượng nhân viên: {this.props.staffNo.length}
               </CardText>
             </CardBody>
